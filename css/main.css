@@ -1,0 +1,411 @@
+/* ========= GERENCIAMENTO DE TELA ========= */
+/*section.inicio{ display: none;}*/
+section.jogo{ display: none;}
+
+
+/* ========= CARREGAR FONTS ========= */
+@font-face {
+     font-family: abel;
+     src: url('../font/Abel-Regular.ttf');
+}
+@font-face {
+  font-family: 'mticons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/MaterialIcons-Regular.ttf);
+}
+
+.mticons{
+    font-family:mticons;
+}
+
+.faicons{
+    font-family:faicons;
+}
+
+/* ========= DEFINIÇÕES GERAIS ========= */
+body{
+    font-family:abel;
+    color: white;
+    background: #375766;
+}
+section, body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* ========= TELA 1 - INÍCIO ========= */
+.inicio{
+    text-align: center;
+    background: url(../img/goal.png) no-repeat center bottom;
+    background-size: 80% auto;
+}
+.inicio h1{
+    font-size: 5em;
+    margin: 7vh 5vw 0 5vw;
+}
+.inicio button{
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);
+    width: 80vw;
+    margin: 10vw auto;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+
+/* ========= TELA 1 - INÍCIO ========= */
+section.jogo1 {
+    color: white;
+}
+section.jogo1 header{
+    background: #e19c08;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 8vh;
+    box-sizing: border-box;
+}
+section.jogo1 header p span.mticons{
+    font-size: 1em;
+    padding: 3px 2px 0 2px;
+    position: relative;
+    top: 2px;
+}
+
+section.jogo1 div {
+    height: 78vh;
+    padding: 6vh 5vw 0 5vw;
+}
+section.jogo1 div h1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 0 1vh 0;
+    font-size: 2em;
+}
+section.jogo1 ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section.jogo1 div ul{
+    padding: 3vh 0;
+}
+section.jogo1 div ul li{
+    width: 22vw;
+    height: 22vw;
+    margin: 0vh 1vw 4vh 1vw;
+}
+section.jogo1 ul li img{
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    border: 3px solid #e3d7cb;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5); 
+}
+
+section.jogo1 footer{
+    width: 100vw;
+    height: 14vh;
+    background: #e19c08;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px 0 0 0;
+}
+section.jogo1 footer p{
+     display: flex;
+    justify-content: space-around;
+}
+section.jogo1 footer span.mticons{
+    position: relative;
+    top: 2px;
+}
+
+/* ========= TELA 2 - INÍCIO ========= */
+section.jogo2 {
+    color: white;
+}
+section.jogo2 header{
+    background: #e19c08;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 8vh;
+    box-sizing: border-box;
+}
+section.jogo2 header p span.mticons{
+    font-size: 1em;
+    padding: 3px 2px 0 2px;
+    position: relative;
+    top: 2px;
+}
+
+section.jogo2 div {
+    height: 78vh;
+    padding: 6vh 5vw 0 5vw;
+}
+section.jogo2 div h1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 0 1vh 0;
+    font-size: 2em;
+}
+section.jogo2 ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section.jogo2 div ul{
+    padding: 3vh 0;
+}
+section.jogo2 div ul li{
+    width: 22vw;
+    height: 22vw;
+    margin: 0vh 1vw 4vh 1vw;
+}
+section.jogo2 ul li img{
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    border: 3px solid #e3d7cb;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5); 
+}
+
+section.jogo2 footer{
+    width: 100vw;
+    height: 14vh;
+    background: #e19c08;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px 0 0 0;
+}
+section.jogo2 footer p{
+     display: flex;
+    justify-content: space-around;
+}
+section.jogo2 footer span.mticons{
+    position: relative;
+    top: 2px;
+}
+
+/* ========= TELA 3 - INÍCIO ========= */
+section.jogo3 {
+    color: white;
+}
+section.jogo3 header{
+    background: #e19c08;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 8vh;
+    box-sizing: border-box;
+}
+section.jogo3 header p span.mticons{
+    font-size: 1em;
+    padding: 3px 2px 0 2px;
+    position: relative;
+    top: 2px;
+}
+
+section.jogo3 div {
+    height: 78vh;
+    padding: 6vh 5vw 0 5vw;
+}
+section.jogo3 div h1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 0 1vh 0;
+    font-size: 2em;
+}
+section.jogo3 ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section.jogo3 div ul{
+    padding: 3vh 0;
+}
+section.jogo3 div ul li{
+    width: 22vw;
+    height: 22vw;
+    margin: 0vh 1vw 4vh 1vw;
+}
+section.jogo3 ul li img{
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    border: 3px solid #e3d7cb;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5); 
+}
+
+section.jogo3 footer{
+    width: 100vw;
+    height: 14vh;
+    background: #e19c08;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px 0 0 0;
+}
+section.jogo3 footer p{
+     display: flex;
+    justify-content: space-around;
+}
+section.jogo3 footer span.mticons{
+    position: relative;
+    top: 2px;
+}
+
+/* ========= TELA 4 - INÍCIO ========= */
+section.jogo4 {
+    color: white;
+}
+section.jogo4 header{
+    background: #e19c08;
+    font-size: 1.5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    height: 8vh;
+    box-sizing: border-box;
+}
+section.jogo4 header p span.mticons{
+    font-size: 1em;
+    padding: 3px 2px 0 2px;
+    position: relative;
+    top: 2px;
+}
+
+section.jogo4 div {
+    height: 78vh;
+    padding: 6vh 5vw 0 5vw;
+}
+section.jogo4 div h1{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 0 1vh 0;
+    font-size: 2em;
+}
+section.jogo4 ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section.jogo4 div ul{
+    padding: 3vh 0;
+}
+section.jogo4 div ul li{
+    width: 22vw;
+    height: 22vw;
+    margin: 0vh 1vw 4vh 1vw;
+}
+section.jogo4 ul li img{
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    border: 3px solid #e3d7cb;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5); 
+}
+
+section.jogo4 footer{
+    width: 100vw;
+    height: 14vh;
+    background: #e19c08;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    bottom: 0;
+    color: white;
+    padding: 8px 0 0 0;
+}
+section.jogo4 footer p{
+     display: flex;
+    justify-content: space-around;
+}
+section.jogo4 footer span.mticons{
+    position: relative;
+    top: 2px;
+}
+
+
+/* ========= PERDEU ========= */
+section.perdeu{
+    text-align: center;
+    background: url(../img/goal.png) no-repeat center bottom;
+    background-size: 80% auto;
+}
+section.perdeu h1{
+    font-size: 5em;
+    margin: 7vh 5vw 0 5vw;
+}
+section.perdeu button{
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);
+    width: 80vw;
+    margin: 10vw auto;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+/* ========= TEMPO EXCEDIDO ========= */
+section.tempo{
+    text-align: center;
+    background: url(../img/goal.png) no-repeat center bottom;
+    background-size: 80% auto;
+}
+section.tempo h1{
+    font-size: 5em;
+    margin: 7vh 5vw 0 5vw;
+}
+section.tempo button{
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);
+    width: 80vw;
+    margin: 10vw auto;
+    padding: 20px 0;
+    border-radius: 4px;
+}
+
+/* ========= VITÓRIA ========= */
+section.vitoria{
+    text-align: center;
+    background: url(../img/goal.png) no-repeat center bottom;
+    background-size: 80% auto;
+}
+section.vitoria h1{
+    font-size: 5em;
+    margin: 7vh 5vw 0 5vw;
+}
+section.vitoria button{
+    background: linear-gradient(to bottom, #f2f2f2, #e0dede);
+    border: none;
+    font-size: 2em;
+    color: #787878;
+    box-shadow: 4px 4px 2px -2px rgba(0,0,0,0.5);
+    width: 80vw;
+    margin: 10vw auto;
+    padding: 20px 0;
+    border-radius: 4px;
+}
